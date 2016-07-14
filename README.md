@@ -13,4 +13,4 @@ We have added the Eagle files for the Krypton Board, an Altera Max V based devel
 The board we worked on has been designed under [eagle/main_circuit.sch](eagle/main_circuit.sch) and [eagle/main_circuit.sch](eagle/main_circuit.sch)
 
 
-A detailed documentation of the project can be found in FPGA.pdf
+A detailed documentation of the project can be found in [report.pdf](report.pdf)
