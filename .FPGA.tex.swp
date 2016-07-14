@@ -1,0 +1,22 @@
+\documentclass[11pt]{article}
+%Gummi|065|=)
+\title{\textbf{Low Cost FPGA}}
+\author{Kalpesh Krishna\\
+		Abhin Shah}
+\date{}
+\begin{document}
+
+\maketitle
+
+\section{Before you start}
+
+ 
+
+\section{I2C}
+We learnt the I2C protocol. Our aim was to program the CDCE925 chip of Texas instruments using I2C according to the guidelines in the datasheet. First of all we established I2C connection between two arduinos. We used Arduino Uno and Arduino Leonardo as Master and Slave respectively. We used Master Writer/Slave Receiver and Master Reader/Slave Sender codes.Then we used I2C to program an RTC using Arduino. This was done for a basic understanding of the I2C protocol.
+Then we used the Wire library of Arduino to program CDCE925 chip.
+
+\section{One more thing}
+
+
+\end{document}
