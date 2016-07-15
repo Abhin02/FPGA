@@ -91,5 +91,7 @@ We found a library on Github, which uses an Arduino to burn XSVF files onto a an
 This library can be found on Github, at \href{https://github.com/mrjimenez/JTAG}{https://github.com/mrjimenez/JTAG}.\\\\
 This library did not work successfully with an Arduino Leonardo connected to our working CPLD circuit through JTAG wires. We suspect this is because the library is very specific to XSVF files and our CPLD will not support this file format.
 \section*{Raspberry Pi}
-We spent considerable time understanding and installing Raspberry Pi, since it was our first time with this magical device.
+We spent considerable time understanding and installing Raspberry Pi, since it was our first time with this magical device. Once this was setup, we started off by installing OpenOCD, a library which has JTAG programming support for a number of microcontrollers.\\
+Unfortunately, due to the lack of literature online for Altera CPLDs with OpenOCD, we could not use this.\\We then installed UrJTAG on the Raspberry Pi and succeeded in communicating with the Altera CPLD chip with the GPIO pins acting as JTAG pins. The tutorial followed to achieve this is \href{https://saturn.ffzg.hr/rot13/index.cgi?action=display_html;page_name=urjtag}{here}.\\
+
 \end{document}
